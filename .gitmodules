@@ -1,3 +1,6 @@
 [submodule "server"]
 	path = server
 	url = git@github.com:christy-B/server.git
+[submodule "client"]
+	path = client
+	url = git@github.com:christy-B/client.git
