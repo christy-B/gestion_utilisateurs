@@ -1,0 +1,10 @@
+services:
+  sqlite:
+    image: nouchka/sqlite3:latest
+    volumes:
+      - ./sqlite-data:/data # Le fichier de la base de données sera stocké ici
+    stdin_open: true # Permet d'interagir avec le conteneur
+    tty: true # Active le terminal interactif
+
+volumes:
+  sqlite-data:
