@@ -1,0 +1,29 @@
+#. Application de gestion des utilisateurs
+
+Cette application comprend un serveur d'API (backend) et une interface utilisateur (frontend).
+
+# Technologies:
+## Symfony
+## Doctrine
+## Sqlite
+## React
+
+# Installation
+
+# git clone https://github.com/christy-B/gestion_utilisateurs.git
+
+## Lancer le service sql 
+
+### docker-compose up -d
+
+## lancer le serveur
+
+### cd server
+
+### omposer install
+
+## lancer le client
+
+### cd client
+
+### npm install
